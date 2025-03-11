@@ -1,9 +1,10 @@
 #Merging Util and Food non-spatial data on attribute 'household_type'
+import pandas as pd
 
-df_util = pd.read_csv('OneDrive\Desktop\git\AppChallenge2025\AppChallenge2025\backend\data\Vancouver_Utilities_Cost.csv')
+def food_util_merge(utils_path, food_path):
+    df_util = pd.read_csv(utils_path)
+    df_food = pd.read_csv(food_path)
 
-df_food = pd.read_csv('OneDrive\Desktop\git\AppChallenge2025\AppChallenge2025\backend\data\food_costs')
+    merged_df = pd.merge(df_util, df_food, on='household_type')
 
-merged_df = pd.merge(df_util, df_food, on='household_type')
-
-print(merged_df.head())
+    return merged_df
