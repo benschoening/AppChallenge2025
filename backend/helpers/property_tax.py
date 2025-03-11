@@ -37,6 +37,8 @@ df_pc = pd.read_csv('./gus_data/CanadianPostalCodes202403.csv', usecols=[
 df_pc['POSTAL_CODE'] = df_pc['POSTAL_CODE'].str.replace(' ', '')
 df_pt['PROPERTY_POSTAL_CODE'] = df_pt['PROPERTY_POSTAL_CODE'].str.replace(' ', '')
 
+df_pt = df_pt[df_pt['ZONING_CLASSIFICATION'].isin(['RESIDENTIAL', 'RESIDENTIAL INCLUSIVE', 'COMPREHENSIVE DEVELOPMENT'])]
+
 # group data by location
 df_pt_group = df_pt.groupby(['PROPERTY_POSTAL_CODE']).agg({
     'TAX_LEVY':'mean', 
