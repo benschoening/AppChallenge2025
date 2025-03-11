@@ -10,7 +10,7 @@ import pandas as pd
 
 
 # Vancouver property tax reports
-df_pt = pd.read_csv('./gus_data/property-tax-report.csv', sep=';', usecols=[
+df_pt = pd.read_csv('./data/property-tax-report.csv', sep=';', usecols=[
     'ZONING_DISTRICT',
     'ZONING_CLASSIFICATION',
     'TO_CIVIC_NUMBER',
@@ -27,7 +27,7 @@ df_pt = pd.read_csv('./gus_data/property-tax-report.csv', sep=';', usecols=[
 df_pt = df_pt[df_pt['TAX_ASSESSMENT_YEAR'] == 2024]
 
 # Postal Code data 
-df_pc = pd.read_csv('./gus_data/CanadianPostalCodes202403.csv', usecols=[
+df_pc = pd.read_csv('./data/CanadianPostalCodes202403.csv', usecols=[
     'POSTAL_CODE',
     'LATITUDE',
     'LONGITUDE'
@@ -37,7 +37,7 @@ df_pc = pd.read_csv('./gus_data/CanadianPostalCodes202403.csv', usecols=[
 df_pc['POSTAL_CODE'] = df_pc['POSTAL_CODE'].str.replace(' ', '')
 df_pt['PROPERTY_POSTAL_CODE'] = df_pt['PROPERTY_POSTAL_CODE'].str.replace(' ', '')
 
-df_pt = df_pt[df_pt['ZONING_CLASSIFICATION'].isin(['RESIDENTIAL', 'RESIDENTIAL INCLUSIVE', 'COMPREHENSIVE DEVELOPMENT'])]
+df_pt = df_pt[df_pt['ZONING_CLASSIFICATION'].isin(['Residential', 'Residential Inclusive', 'Comprehensive Development'])]
 
 # group data by location
 df_pt_group = df_pt.groupby(['PROPERTY_POSTAL_CODE']).agg({
@@ -49,4 +49,4 @@ df_pt_group = df_pt_group.rename(columns={'TAX_LEVY':'AVG_TAX_LEVY', 'CURRENT_LA
 
 
 df_merge = df_pt_group.merge(df_pc, how='left', left_on='PROPERTY_POSTAL_CODE', right_on='POSTAL_CODE').drop(columns=['PROPERTY_POSTAL_CODE'])
-df_merge.to_csv('./gus_data/van_property_tax_out.csv', index=False)
+df_merge.to_csv('./data/van_property_tax_out.csv', index=False)
