@@ -50,19 +50,19 @@ def merge_rental(df_util_food, df_rental, df_childcare):
     living_costs_df_car = living_costs_df.copy()
 
     # calculating living costs for each household type for the transit scenario
-    living_costs_df_transit['1a0k_living_cost'] = round(df_rental[["Bachelor", "1 Bedroom"]].mean(axis=1) + monthly_cost_1a0k + MONTHLY_PASS + OTHER_COSTS, 2)
-    living_costs_df_transit['1a1k_living_cost'] = round(df_rental["2 Bedroom"] + monthly_cost_1a1k + avg_childcare_cost + MONTHLY_PASS + MONTHLY_PASS_CHILD + OTHER_COSTS, 2)
-    living_costs_df_transit['1a2k_living_cost'] = round(df_rental["3 Bedroom +"] + monthly_cost_1a2k + 2 * avg_childcare_cost + MONTHLY_PASS + 2 * MONTHLY_PASS_CHILD + OTHER_COSTS, 2)
-    living_costs_df_transit['2a0k_living_cost'] = round(df_rental[["Bachelor", "1 Bedroom"]].mean(axis=1) + monthly_cost_2a0k + 2 * MONTHLY_PASS + OTHER_COSTS, 2)
-    living_costs_df_transit['2a1k_living_cost'] = round(df_rental["2 Bedroom"] + monthly_cost_2a1k + avg_childcare_cost + 2 * MONTHLY_PASS + MONTHLY_PASS_CHILD + OTHER_COSTS, 2)
-    living_costs_df_transit['2a2k_living_cost'] = round(df_rental["3 Bedroom +"] + monthly_cost_2a2k + 2 * avg_childcare_cost + 2 * MONTHLY_PASS + 2 * MONTHLY_PASS_CHILD + OTHER_COSTS, 2)
+    living_costs_df_transit['1a0k_living_cost'] = round((df_rental[["Bachelor", "1 Bedroom"]].mean(axis=1) + monthly_cost_1a0k + MONTHLY_PASS + OTHER_COSTS) / 160, 2)
+    living_costs_df_transit['1a1k_living_cost'] = round((df_rental["2 Bedroom"] + monthly_cost_1a1k + avg_childcare_cost + MONTHLY_PASS + MONTHLY_PASS_CHILD + OTHER_COSTS) / 160, 2)
+    living_costs_df_transit['1a2k_living_cost'] = round((df_rental["3 Bedroom +"] + monthly_cost_1a2k + 2 * avg_childcare_cost + MONTHLY_PASS + 2 * MONTHLY_PASS_CHILD + OTHER_COSTS) / 160, 2)
+    living_costs_df_transit['2a0k_living_cost'] = round((df_rental[["Bachelor", "1 Bedroom"]].mean(axis=1) + monthly_cost_2a0k + 2 * MONTHLY_PASS + OTHER_COSTS) / 160, 2)
+    living_costs_df_transit['2a1k_living_cost'] = round((df_rental["2 Bedroom"] + monthly_cost_2a1k + avg_childcare_cost + 2 * MONTHLY_PASS + MONTHLY_PASS_CHILD + OTHER_COSTS) / 160, 2)
+    living_costs_df_transit['2a2k_living_cost'] = round((df_rental["3 Bedroom +"] + monthly_cost_2a2k + 2 * avg_childcare_cost + 2 * MONTHLY_PASS + 2 * MONTHLY_PASS_CHILD + OTHER_COSTS) / 160, 2)
 
     # calculating living costs for each household type for the car scenario
-    living_costs_df_car['1a0k_living_cost'] = round(df_rental[["Bachelor", "1 Bedroom"]].mean(axis=1) + monthly_cost_1a0k + SUV_COST + OTHER_COSTS, 2)
-    living_costs_df_car['1a1k_living_cost'] = round(df_rental["2 Bedroom"] + monthly_cost_1a1k + avg_childcare_cost + SUV_COST + OTHER_COSTS, 2)
-    living_costs_df_car['1a2k_living_cost'] = round(df_rental["3 Bedroom +"] + monthly_cost_1a2k + 2 * avg_childcare_cost + SUV_COST + OTHER_COSTS, 2)
-    living_costs_df_car['2a0k_living_cost'] = round(df_rental[["Bachelor", "1 Bedroom"]].mean(axis=1) + monthly_cost_2a0k + SUV_COST + OTHER_COSTS, 2)
-    living_costs_df_car['2a1k_living_cost'] = round(df_rental["2 Bedroom"] + monthly_cost_2a1k + avg_childcare_cost + SUV_COST + OTHER_COSTS, 2)
-    living_costs_df_car['2a2k_living_cost'] = round(df_rental["3 Bedroom +"] + monthly_cost_2a2k + 2 * avg_childcare_cost + SUV_COST + OTHER_COSTS, 2)
+    living_costs_df_car['1a0k_living_cost'] = round((df_rental[["Bachelor", "1 Bedroom"]].mean(axis=1) + monthly_cost_1a0k + SUV_COST + OTHER_COSTS) / 160, 2)
+    living_costs_df_car['1a1k_living_cost'] = round((df_rental["2 Bedroom"] + monthly_cost_1a1k + avg_childcare_cost + SUV_COST + OTHER_COSTS) / 160, 2)
+    living_costs_df_car['1a2k_living_cost'] = round((df_rental["3 Bedroom +"] + monthly_cost_1a2k + 2 * avg_childcare_cost + SUV_COST + OTHER_COSTS) / 160, 2)
+    living_costs_df_car['2a0k_living_cost'] = round((df_rental[["Bachelor", "1 Bedroom"]].mean(axis=1) + monthly_cost_2a0k + SUV_COST + OTHER_COSTS) / 160, 2)
+    living_costs_df_car['2a1k_living_cost'] = round((df_rental["2 Bedroom"] + monthly_cost_2a1k + avg_childcare_cost + SUV_COST + OTHER_COSTS) / 160, 2)
+    living_costs_df_car['2a2k_living_cost'] = round((df_rental["3 Bedroom +"] + monthly_cost_2a2k + 2 * avg_childcare_cost + SUV_COST + OTHER_COSTS) / 160, 2)
 
     return living_costs_df_transit, living_costs_df_car
