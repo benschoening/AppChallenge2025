@@ -3,7 +3,8 @@
 import pandas as pd
 import sys
 
-from backend.helpers.foodutilmerge import food_util_merge 
+from merge_non_spatial import merge_costs 
+from merge_rental import merge_rental
 
 # we should define constant costs here, such as transportation
 
@@ -14,16 +15,19 @@ def main():
     # df_rent = pd.read_csv("insert path to rent data here")
     # df_childcare = pd.read_csv("insert path to childcare data here")
     df_util = pd.read_csv("./data/Vancouver_Utilities_Cost.csv")
-    df_food = pd.read_csv("./data/food_costs.csv")
+    df_grocery = pd.read_csv("./data/grocery_costs.csv")
+    df_rental = pd.read_csv("./data/city_med_rent.csv")
+    df_childcare = pd.read_csv("./data/child_care.csv")
 
-    # merge the data
-    merged_df = food_util_merge(df_util, df_food)
+    # merge the non-spatial data
+    merged_df = merge_costs(df_util, df_grocery)
 
-    # calculate the living wage
-    merged_df['living_wage'] = merged_df['monthly_housing_cost'] + merged_df['monthly_food_cost']
+    # calculate living costs w/ rental data for transit case and car case
+    merged_df_transit, merged_df_car = merge_rental(merged_df, df_rental, df_childcare)
 
     # save the data
-    merged_df.to_csv('./data/living_wage.csv')
+    merged_df_transit.to_csv('./data/living_wage_transit.csv')
+    merged_df_car.to_csv('./data/living_wage_car.csv')
 
 if __name__ == '__main__':
     main()

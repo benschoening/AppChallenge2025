@@ -1,7 +1,7 @@
-﻿household_type,Garbage Size,Garbage Cost (Flat Rate Annual),Water Cost (Flat Rate Annual),Water Cost (Monthly Average),Sewer (Flat Rate Annual),Natural Gas (Average BC),Internet (Average BC)
-1a0k,75 L,$124 ,$840 ,$103 ,$272 ,$101.89 ,$75 
-1a1k,120 L,$142 ,$850 ,$103 ,$272 ,$101.89 ,$75 
-1a2k,180 L,$166 ,$867 ,$205 ,$272 ,$101.89 ,$75 
-2a0k,180 L,$166 ,$867 ,$205 ,$272 ,$101.89 ,$75 
-2a1k,180 L,$166 ,$867 ,$205 ,$272 ,$101.89 ,$75 
-2a2k,240 L,$190 ,$900 ,$308 ,$272 ,$101.89 ,$75 
+﻿household_type,garbage_cost_annual,water_cost_annual,water_cost_monthly,sewer_annual,gas_monthly,internet_monthly
+1a0k,124,840,103,272,101.89,75 
+1a1k,142,850,103,272,101.89,75 
+1a2k,166,867,205,272,101.89,75 
+2a0k,166,867,205,272,101.89,75 
+2a1k,166,867,205,272,101.89,75 
+2a2k,190,900,308,272,101.89,75

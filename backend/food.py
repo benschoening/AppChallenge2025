@@ -23,8 +23,8 @@ import sys
 
 # for children, multiply adult cost by 0.75 and add to the total, per child.
 
-def main(grocery_file):
-    grocery_df = pd.read_csv(grocery_file)
+def main():
+    grocery_df = pd.read_csv('./data/grocery.csv')
 
     # cost of one adult per month
     adult = np.sum(grocery_df['price']) * 30
@@ -47,11 +47,10 @@ def main(grocery_file):
     costs_df.index.name = 'household_type'
 
     # save to CSV
-    costs_df.to_csv('./data/food_costs.csv')
+    costs_df.to_csv('./data/grocery_costs.csv')
 
 
 if __name__ == '__main__':
-    grocery_file = sys.argv[1]
-    main(grocery_file)
+    main()
 
     
