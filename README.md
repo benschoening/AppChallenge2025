@@ -146,8 +146,6 @@ The affordability of cities given a user submitted input will be calculated and 
 
 ![](./images/image10.png)
 
-##
-
 The “Choose Transport & Household Type:” Selector drops down 12 different selections for household types that will determine the final Living Wage.  
 For example: a household of 2 Adults, 1 ten-year old, and 1 five-year old that travels by Transit would select “Transit \- 2 Adults 2 Kids”.
 
