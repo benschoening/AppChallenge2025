@@ -101,6 +101,49 @@ The app assumes the user receives a static, unchanging income throughout the yea
 
 The app’s layout was designed for purposes of use on a desktop or laptop. Use of this app on a mobile device might hinder capabilities due to portions of features being different.
 
+## USER GUIDE:
+
+**Web Page Navigation**
+
+- Home \- General web app overview
+- Calculator \- Main application
+- Methodology \- Overview of how living wage is determined
+- Resources \- Additional Links and useful resources
+
+**Calculator App Usage:**
+
+![][image3]
+
+The main calculator app page can be visited from the home page by using the navigation bar by clicking on the calculator link at the top of any page.
+
+![][image4]
+
+Once the page has loaded, there will be 5 distinct features visible to the user: A: Main Map Display, B: Gross income input fields, C: Income output field, E: Transport and family size selector, D: Map layer Legend.
+
+![][image5]
+
+The Gross income input field takes in the hourly total made by a household. This can be any positive value dictated by the user which will be used to calculate and rank the affordability of cities.
+
+## ![][image6]
+
+The Selection of “Hourly” and “Salary” are to estimate your living wage  
+ Hourly wage \= Income per week (based on 40 hour week)  
+ Salary wage \= Annual income
+
+![][image7]
+
+Once the fields have been filled out and the user is ready, the submit button can be clicked to provide a resulting affordability ranking.
+
+![][image8]
+
+The affordability of cities given a user submitted input will be calculated and ranked. This will display information on the city which is most affordable and the amount in savings potential for each city  
+.![][image9]
+
+##
+
+The “Choose Transport & Household Type:” Selector drops down 12 different selections for household types that will determine the final Living Wage.  
+For example: a household of 2 Adults, 1 ten-year old, and 1 five-year old that travels by Transit would select “Transit \- 2 Adults 2 Kids”.
+
 ## Data Sources
 
 | Data Name (Source)                                                             | Type    | Link                                                                                                                                                                                                     |
