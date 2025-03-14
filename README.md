@@ -4,6 +4,8 @@ A Desktop/Laptop-oriented Web Application
 
 ## Team SolutionsForUs
 
+![](./images/image1.png)
+
 - Gustavo Schiele
 - Benjamin Schoening
 - Vincent Liu
@@ -43,7 +45,11 @@ Flat monthly cost of $100
 
 The living wage calculation can then be formalised into an equation to represent the monthly costs associated with each city, household type, and transportation method:
 
+![](./images/image2.png)
+
 Where “L” is a living wage function of “h” (household type), “c” (city), and “t” (transportation mode) of the desired living wage parameters. “OtherCosts” represents the remaining costs associated with the living wage:
+
+![](./images/image3.png)
 
 …which can be represented as constants. We then utilized this equation to calculate the living wage associated with each combination of household type, city, and mode of transportation.
 
@@ -112,32 +118,33 @@ The app’s layout was designed for purposes of use on a desktop or laptop. Use 
 
 **Calculator App Usage:**
 
-![][image3]
+![](./images/image4.png)
 
 The main calculator app page can be visited from the home page by using the navigation bar by clicking on the calculator link at the top of any page.
 
-![][image4]
+![](./images/image5.png)
 
 Once the page has loaded, there will be 5 distinct features visible to the user: A: Main Map Display, B: Gross income input fields, C: Income output field, E: Transport and family size selector, D: Map layer Legend.
 
-![][image5]
+![](./images/image6.png)
 
 The Gross income input field takes in the hourly total made by a household. This can be any positive value dictated by the user which will be used to calculate and rank the affordability of cities.
 
-## ![][image6]
+![](./images/image7.png)
 
 The Selection of “Hourly” and “Salary” are to estimate your living wage  
  Hourly wage \= Income per week (based on 40 hour week)  
  Salary wage \= Annual income
 
-![][image7]
+![](./images/image8.png)
 
 Once the fields have been filled out and the user is ready, the submit button can be clicked to provide a resulting affordability ranking.
 
-![][image8]
+![](./images/image9.png)
 
-The affordability of cities given a user submitted input will be calculated and ranked. This will display information on the city which is most affordable and the amount in savings potential for each city  
-.![][image9]
+The affordability of cities given a user submitted input will be calculated and ranked. This will display information on the city which is most affordable and the amount in savings potential for each city.
+
+![](./images/image10.png)
 
 ##
 
