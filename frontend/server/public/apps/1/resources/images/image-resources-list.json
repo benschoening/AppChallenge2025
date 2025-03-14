@@ -82,5 +82,33 @@
     "isUseCompress": false,
     "originalWidth": 217,
     "originalHeight": 55
+  },
+  "1741986924168": {
+    "originalName": "Equation.png",
+    "fileName": "1741986924168.png",
+    "size": 18373,
+    "url": "${appResourceUrl}/images/widget_441/1741986924168.png",
+    "created": 1741986924168,
+    "resourcesPrefix": "images/widget_441",
+    "referredIds": [],
+    "originId": "1741986924168",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 936,
+    "originalHeight": 66
+  },
+  "1741987468858": {
+    "originalName": "othercosts.png",
+    "fileName": "1741987468858.png",
+    "size": 9058,
+    "url": "${appResourceUrl}/images/widget_445/1741987468858.png",
+    "created": 1741987468858,
+    "resourcesPrefix": "images/widget_445",
+    "referredIds": [],
+    "originId": "1741987468858",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 506,
+    "originalHeight": 72
   }
 }

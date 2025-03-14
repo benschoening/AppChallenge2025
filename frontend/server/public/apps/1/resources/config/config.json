@@ -23,7 +23,8 @@
       "isVisible": true,
       "label": "Resources",
       "header": true,
-      "footer": false
+      "footer": false,
+      "bodyBackgroundColor": "var(--light)"
     },
     "page_8": {
       "id": "page_8",
@@ -56,7 +57,7 @@
       "header": true,
       "label": "Home",
       "footer": false,
-      "autoOpenDialogId": "dialog_5",
+      "autoOpenDialogId": "",
       "bodyBackgroundColor": "var(--light)"
     },
     "page_20": {
@@ -71,20 +72,6 @@
       "label": "Methodology",
       "header": true,
       "footer": false
-    },
-    "page_25": {
-      "id": "page_25",
-      "mode": "AUTO_SCROLL",
-      "type": "NORMAL",
-      "layout": {
-        "LARGE": "layout_167"
-      },
-      "isDefault": false,
-      "isVisible": false,
-      "label": "Page",
-      "header": false,
-      "footer": false,
-      "maxWidth": 1024
     }
   },
   "layouts": {
@@ -260,60 +247,16 @@
     "layout_2": {
       "type": "FIXED",
       "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_8",
-          "bbox": {
-            "left": "75.6%",
-            "right": "0.7%",
-            "top": "74.1%",
-            "bottom": "1.2%",
-            "width": "23.7%",
-            "height": "24.7%"
-          },
-          "setting": {
-            "autoProps": {
-              "left": true,
-              "right": false,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_268",
-          "bbox": {
-            "left": "7.2%",
-            "right": "64.8%",
-            "top": "74.4%",
-            "bottom": "2.4%",
-            "width": "28.0%",
-            "height": "23.2%"
-          },
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
         "2": {
           "type": "WIDGET",
           "widgetId": "widget_320",
           "bbox": {
-            "left": "-0.0%",
-            "right": "71.9%",
-            "top": "6.6%",
-            "bottom": "86.6%",
-            "width": "28.1%",
-            "height": "6.8%"
+            "left": "0.0%",
+            "right": "64.8%",
+            "top": "2.0%",
+            "bottom": "25.7%",
+            "width": "35.2%",
+            "height": "72.3%"
           },
           "setting": {
             "autoProps": {
@@ -331,16 +274,16 @@
           "widgetId": "widget_321",
           "bbox": {
             "left": "35.1%",
-            "right": "36.8%",
-            "top": "5.3%",
-            "bottom": "87.9%",
-            "width": "28.1%",
-            "height": "6.8%"
+            "right": "32.1%",
+            "top": "2.0%",
+            "bottom": "23.1%",
+            "width": "32.8%",
+            "height": "74.9%"
           },
           "setting": {
             "autoProps": {
-              "left": false,
-              "right": true,
+              "left": true,
+              "right": false,
               "top": false,
               "bottom": true
             },
@@ -352,12 +295,12 @@
           "type": "WIDGET",
           "widgetId": "widget_322",
           "bbox": {
-            "left": "66.9%",
-            "right": "5.0%",
-            "top": "5.3%",
-            "bottom": "87.9%",
-            "width": "28.1%",
-            "height": "6.8%"
+            "left": "67.9%",
+            "right": "0.7%",
+            "top": "2.0%",
+            "bottom": "48.3%",
+            "width": "31.4%",
+            "height": "49.7%"
           },
           "setting": {
             "autoProps": {
@@ -365,13 +308,13 @@
               "left": true,
               "top": false,
               "bottom": true
-            }
+            },
+            "vCenter": false,
+            "hCenter": false
           }
         }
       },
       "order": [
-        "0",
-        "1",
         "2",
         "3",
         "4"
@@ -430,10 +373,10 @@
           "bbox": {
             "left": "74.1%",
             "right": "2.4%",
-            "top": "48.5%",
-            "bottom": "29.4%",
+            "top": "49.3%",
+            "bottom": "31.5%",
             "width": "23.5%",
-            "height": "22.1%"
+            "height": "19.2%"
           },
           "setting": {
             "autoProps": {
@@ -475,9 +418,9 @@
             "left": "74.1%",
             "right": "2.5%",
             "top": "44.9%",
-            "bottom": "47.7%",
+            "bottom": "50.8%",
             "width": "23.4%",
-            "height": "7.4%"
+            "height": "4.3%"
           },
           "setting": {
             "autoProps": {
@@ -493,8 +436,8 @@
       },
       "order": [
         "0",
-        "10",
         "13",
+        "10",
         "14",
         "15"
       ]
@@ -589,12 +532,12 @@
             "left": "801px",
             "top": "548px",
             "width": "360px",
-            "height": 481
+            "height": 324
           },
           "widgetId": "widget_149",
           "setting": {
             "heightMode": "fixed",
-            "width": "90%"
+            "width": "100%"
           }
         },
         "10": {
@@ -615,75 +558,61 @@
         },
         "11": {
           "type": "WIDGET",
+          "widgetId": "widget_381",
           "bbox": {
-            "left": "801px",
-            "top": "548px",
-            "width": "360px",
-            "height": "200px"
+            "left": "81px",
+            "right": "381px",
+            "top": "796px",
+            "bottom": "1201px",
+            "width": "300px",
+            "height": 474
           },
-          "widgetId": "widget_314",
           "setting": {
             "heightMode": "fixed"
-          }
-        },
-        "12": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "801px",
-            "top": "548px",
-            "width": "360px",
-            "height": "200px"
-          },
-          "widgetId": "widget_316",
-          "setting": {
-            "heightMode": "fixed",
-            "width": "100%"
           }
         }
       },
       "order": [
         "10",
         "1",
-        "12",
         "11"
       ]
     },
     "layout_101": {
       "type": "ROW",
       "content": {
-        "3": {
+        "5": {
           "type": "WIDGET",
-          "widgetId": "widget_311",
-          "setting": {
-            "autoProps": {
-              "height": "CUSTOM"
-            },
-            "offsetY": 50
-          },
-          "bbox": {
-            "left": 1,
-            "width": 4,
-            "height": "70.0000%"
-          }
-        },
-        "4": {
-          "type": "WIDGET",
-          "widgetId": "widget_336",
+          "widgetId": "widget_366",
           "setting": {
             "autoProps": {
               "height": "STRETCH"
             }
           },
           "bbox": {
-            "left": 6,
+            "left": 5,
+            "width": 7,
+            "height": "389px"
+          }
+        },
+        "6": {
+          "type": "WIDGET",
+          "widgetId": "widget_409",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 0,
             "width": 5,
-            "height": "198px"
+            "height": "350px"
           }
         }
       },
       "order": [
-        "3",
-        "4"
+        "6",
+        "5"
       ],
       "label": "Default",
       "setting": {
@@ -691,10 +620,10 @@
         "style": {
           "padding": {
             "number": [
-              45,
-              30,
-              30,
-              30
+              10,
+              10,
+              0,
+              10
             ],
             "unit": "px"
           }
@@ -1649,126 +1578,22 @@
             "top": "235px",
             "bottom": "303px",
             "width": "423px",
-            "height": 88
+            "height": 562
           },
           "setting": {
             "heightMode": "fixed"
           }
-        }
-      },
-      "order": [
-        "1"
-      ]
-    },
-    "layout_166": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "top": false,
-              "bottom": true,
-              "width": "CUSTOM"
-            },
-            "lockParent": false,
-            "heightMode": "ratio",
-            "aspectRatio": 1,
-            "vCenter": false,
-            "hCenter": false
-          },
-          "bbox": {
-            "left": "4.9%",
-            "top": "8.2%",
-            "width": "15.0%",
-            "height": "57px",
-            "right": "304px",
-            "bottom": "68.4%"
-          },
-          "widgetId": "widget_255",
-          "isPending": false
-        },
-        "1": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "bottom": true,
-              "top": false,
-              "width": "CUSTOM"
-            },
-            "vCenter": false,
-            "hCenter": false,
-            "lockParent": false
-          },
-          "bbox": {
-            "left": "20.00%",
-            "top": "12.00%",
-            "width": "254px",
-            "height": "30px",
-            "right": 30,
-            "bottom": "61.6541%"
-          },
-          "widgetId": "widget_256",
-          "isPending": false
         },
         "2": {
           "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "left": true,
-              "right": false,
-              "bottom": true,
-              "top": false,
-              "width": "STRETCH",
-              "height": "AUTO"
-            },
-            "vCenter": false,
-            "hCenter": false,
-            "order": 0,
-            "lockParent": false,
-            "lockLayout": false
-          },
+          "widgetId": "widget_452",
           "bbox": {
-            "left": "20.00%",
-            "top": "33.00%",
-            "width": "70.8333%",
-            "height": "45.7143%",
-            "right": "8.60%",
-            "bottom": "37px"
-          },
-          "widgetId": "widget_257",
-          "isPending": false
-        }
-      },
-      "order": [
-        "0",
-        "1",
-        "2"
-      ],
-      "setting": {
-        "lockDescendants": true
-      }
-    },
-    "layout_167": {
-      "type": "FLOW",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_258",
-          "bbox": {
-            "left": "347px",
-            "right": "707px",
-            "top": "250px",
-            "bottom": "320px",
-            "width": "360px",
-            "height": 90
+            "left": "638px",
+            "right": "1061px",
+            "top": "232px",
+            "bottom": "1506px",
+            "width": "423px",
+            "height": 772
           },
           "setting": {
             "heightMode": "fixed"
@@ -1776,28 +1601,8 @@
         }
       },
       "order": [
-        "0"
-      ]
-    },
-    "layout_168": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_259",
-          "setting": {
-            "heightMode": "fit"
-          },
-          "bbox": {
-            "left": 0,
-            "width": 5,
-            "height": 70
-          }
-        }
-      },
-      "type": "ROW",
-      "label": "Default",
-      "order": [
-        "0"
+        "1",
+        "2"
       ]
     },
     "layout_176": {
@@ -1863,12 +1668,21 @@
               "alignSelf": "center"
             }
           }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_350",
+          "bbox": {
+            "width": "1260px",
+            "height": 33
+          }
         }
       },
       "type": "COLUMN",
       "label": "Default",
       "order": [
-        "2"
+        "2",
+        "3"
       ],
       "setting": {
         "justifyContent": "flex-start",
@@ -1883,95 +1697,6 @@
         }
       }
     },
-    "layout_193": {
-      "type": "ROW",
-      "content": {
-        "5": {
-          "type": "WIDGET",
-          "widgetId": "widget_318",
-          "setting": {
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
-          "bbox": {
-            "left": 0,
-            "width": 5,
-            "height": 70
-          }
-        },
-        "6": {
-          "type": "WIDGET",
-          "widgetId": "widget_323",
-          "setting": {
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
-          "bbox": {
-            "left": 7,
-            "width": 5,
-            "height": 70
-          }
-        }
-      },
-      "order": [
-        "5",
-        "6"
-      ],
-      "label": "Default",
-      "setting": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              0,
-              0,
-              0,
-              0
-            ],
-            "unit": "px"
-          }
-        }
-      }
-    },
-    "layout_194": {
-      "type": "ROW",
-      "content": {
-        "5": {
-          "type": "WIDGET",
-          "widgetId": "widget_319",
-          "setting": {
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
-          "bbox": {
-            "left": 1,
-            "width": 6,
-            "height": "70px"
-          }
-        }
-      },
-      "order": [
-        "5"
-      ],
-      "label": "Default",
-      "setting": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              0,
-              0,
-              0,
-              0
-            ],
-            "unit": "px"
-          }
-        }
-      }
-    },
     "layout_196": {
       "content": {
         "0": {
@@ -1983,15 +1708,44 @@
           "bbox": {
             "left": 0,
             "width": 4,
-            "height": 68
+            "height": "68px"
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_429",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 4,
+            "width": 8,
+            "height": "405px"
           }
         }
       },
       "type": "ROW",
       "label": "Default",
       "order": [
-        "0"
-      ]
+        "0",
+        "2"
+      ],
+      "setting": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              60,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
     },
     "layout_197": {
       "content": {
@@ -2113,24 +1867,212 @@
         "1"
       ]
     },
-    "layout_202": {
+    "layout_206": {
       "type": "FIXED",
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_350",
+          "widgetId": "widget_380",
           "bbox": {
-            "left": "8.3%",
-            "right": "8.6%",
-            "top": "7.0%",
-            "bottom": "62.0%",
-            "width": "83.1%",
-            "height": "31.0%"
+            "left": "3.4%",
+            "right": "3.8%",
+            "top": "5.9%",
+            "bottom": "7.3%",
+            "width": "92.80%",
+            "height": "86.8%"
           },
           "setting": {
             "autoProps": {
-              "right": true,
               "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ],
+      "label": "Default"
+    },
+    "layout_207": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_382",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 5,
+            "height": "405px"
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_394",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "403px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ],
+      "setting": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_214": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_408",
+          "bbox": {
+            "left": "2.2%",
+            "right": "2.7%",
+            "top": "2.6%",
+            "bottom": "3.6%",
+            "width": "95.1%",
+            "height": "93.8%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ],
+      "label": "Default"
+    },
+    "layout_215": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_406",
+          "bbox": {
+            "left": "3.3%",
+            "right": "1.6%",
+            "top": "3.0%",
+            "bottom": "0.0%",
+            "width": "95.1%",
+            "height": "97.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ],
+      "label": "Default"
+    },
+    "layout_223": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_311",
+          "bbox": {
+            "left": "4.0%",
+            "right": "0.0%",
+            "top": "4.3%",
+            "bottom": "8.3%",
+            "width": "96.0%",
+            "height": "87.4%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ],
+      "label": "Default"
+    },
+    "layout_227": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_427",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "67.0%",
+            "width": "100.0%",
+            "height": "33.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_442",
+          "bbox": {
+            "left": "1.2%",
+            "right": "6.8%",
+            "top": "18.1%",
+            "bottom": "73.4%",
+            "width": "92.0%",
+            "height": "8.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
               "top": false,
               "bottom": true
             },
@@ -2138,16 +2080,82 @@
             "hCenter": false
           }
         },
-        "1": {
+        "2": {
           "type": "WIDGET",
-          "widgetId": "widget_351",
+          "widgetId": "widget_443",
           "bbox": {
-            "left": "8.5%",
-            "right": "8.4%",
-            "top": "40.0%",
-            "bottom": "6.7%",
-            "width": "83.1%",
-            "height": "53.3%"
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "59.2%",
+            "bottom": "-0.5%",
+            "width": "100.0%",
+            "height": "41.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_444",
+          "bbox": {
+            "left": "0.0%",
+            "right": "2.2%",
+            "top": "28.2%",
+            "bottom": "62.2%",
+            "width": "97.8%",
+            "height": "9.6%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_445",
+          "bbox": {
+            "left": "28.5%",
+            "right": "28.6%",
+            "top": "37.8%",
+            "bottom": "57.5%",
+            "width": "42.9%",
+            "height": "4.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_446",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "47.2%",
+            "bottom": "43.6%",
+            "width": "100.0%",
+            "height": "9.2%"
           },
           "setting": {
             "autoProps": {
@@ -2162,10 +2170,49 @@
         }
       },
       "order": [
+        "2",
         "0",
-        "1"
+        "1",
+        "3",
+        "4",
+        "5"
       ],
       "label": "Default"
+    },
+    "layout_232": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_447",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": "1274px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
     }
   },
   "exbVersion": "1.16.0",
@@ -2225,19 +2272,6 @@
         }
       },
       "id": "widget_7"
-    },
-    "widget_8": {
-      "uri": "widgets/common/embed/",
-      "version": "1.16.0",
-      "label": "Embed 2",
-      "config": {
-        "embedType": "code",
-        "expression": "<p><br></p>",
-        "enableLabel": false,
-        "embedCode": "<img src=\"https://th.bing.com/th/id/R.6a4ef3e8a1aced9af7f55e50f8026130?rik=qrcII1KfD63rcA&pid=ImgRaw&r=0\" alt=\"Image 1\" style=\"width:100%; height:10%;\">"
-      },
-      "id": "widget_8",
-      "useDataSources": []
     },
     "widget_9": {
       "uri": "widgets/common/embed/",
@@ -2304,7 +2338,7 @@
       "version": "1.16.0",
       "label": "Text 3",
       "config": {
-        "text": "<h1 style=\"text-align: center;\"><strong style=\"color: var(--dark); text-shadow: rgba(0, 0, 0, 0.4) -4px -3px 4px, rgba(0, 0, 0, 0.2) -2px -2px 0px; font-size: 60px;\">﻿Metro Vancouver's </strong></h1><h1 style=\"text-align: center;\"><strong style=\"text-shadow: rgba(0, 0, 0, 0.4) -4px -3px 4px, rgba(0, 0, 0, 0.2) -2px -2px 0px; color: var(--dark); font-size: 60px;\">Living Wage Calculator</strong></h1>",
+        "text": "<h1 style=\"text-align: center;\"><strong style=\"font-size: 60px; text-shadow: rgba(0, 0, 0, 0.4) -4px -3px 4px, rgba(0, 0, 0, 0.2) -2px -2px 0px; color: var(--dark);\">﻿MetroWage</strong></h1>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -2318,7 +2352,8 @@
               "exp": "\"\""
             }
           ]
-        }
+        },
+        "placeholder": "Double click to edit text"
       },
       "id": "widget_151",
       "style": {
@@ -3316,105 +3351,6 @@
         }
       }
     },
-    "widget_255": {
-      "uri": "widgets/common/image/",
-      "version": "1.16.0",
-      "label": "Image 12",
-      "config": {
-        "functionConfig": {
-          "altText": "",
-          "toolTip": "",
-          "linkParam": {},
-          "scale": "Fit",
-          "imageParam": {
-            "url": "https://banner2.cleanpng.com/20180325/fqw/av062id6m.webp",
-            "originalUrl": "https://banner2.cleanpng.com/20180325/fqw/av062id6m.webp",
-            "fileName": "av062id6m.webp",
-            "originalName": "av062id6m.webp",
-            "imgSourceType": "BY_URL",
-            "cropParam": {
-              "svgViewBox": "0 0 28 28",
-              "svgPath": "M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14z",
-              "cropShape": "circle"
-            }
-          },
-          "imgSourceType": "",
-          "srcExpression": null,
-          "imageDisplayQualityMode": "ORIGINAL"
-        },
-        "styleConfig": {}
-      },
-      "id": "widget_255"
-    },
-    "widget_256": {
-      "uri": "widgets/common/text/",
-      "version": "1.16.0",
-      "label": "Text 22",
-      "config": {
-        "text": "<p><strong style=\"color: var(--dark-800); font-size: 14px;\">Welcome﻿</strong></p>",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_256"
-    },
-    "widget_257": {
-      "uri": "widgets/common/text/",
-      "version": "1.16.0",
-      "label": "Text 23",
-      "config": {
-        "text": "<p><span style=\"color: var(--dark-800);\">This is Metro Vancouver's Living Wage Calculator. To get started please read our Mission Statement, Methodology, and Instructions. The current page format is suited for 1280 x 1080 screens</span></p>",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_257"
-    },
-    "widget_258": {
-      "uri": "widgets/layout/row/",
-      "version": "1.16.0",
-      "label": "Block 31",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_258",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_168"
-        }
-      }
-    },
-    "widget_259": {
-      "uri": "widgets/common/text/",
-      "version": "1.16.0",
-      "label": "Text 24",
-      "config": {
-        "text": "<p></p>",
-        "placeholder": "Double click to edit text"
-      },
-      "id": "widget_259"
-    },
-    "widget_268": {
-      "uri": "widgets/common/embed/",
-      "version": "1.16.0",
-      "label": "Embed 6",
-      "config": {
-        "embedType": "code",
-        "expression": "",
-        "embedCode": "<img src=\"https://live.staticflickr.com/1137/1375913539_addf1607f0_b.jpg\" alt=\"BC Flag\" style=\"width:100%; height:10%;\">\n"
-      },
-      "id": "widget_268"
-    },
     "widget_275": {
       "uri": "widgets/arcgis/arcgis-map/",
       "version": "1.16.0",
@@ -3427,18 +3363,18 @@
           "canNavigation": true
         },
         "isUseCustomMapState": true,
-        "initialMapDataSourceID": "dataSource_3",
+        "initialMapDataSourceID": "dataSource_5",
         "initialMapState": {
           "viewPoint": {
             "rotation": 0,
-            "scale": 1155581.1085775,
+            "scale": 577790.5542885,
             "targetGeometry": {
               "spatialReference": {
                 "latestWkid": 3857,
                 "wkid": 102100
               },
-              "x": -13678163.736330993,
-              "y": 6314851.569736403
+              "x": -13684362.898757778,
+              "y": 6316244.754009756
             }
           },
           "extent": {
@@ -3446,10 +3382,10 @@
               "latestWkid": 3857,
               "wkid": 102100
             },
-            "xmin": -13783799.709421102,
-            "ymin": 6244682.377770615,
-            "xmax": -13572527.763240885,
-            "ymax": 6385020.761702192
+            "xmin": -13736951.574217955,
+            "ymin": 6281313.032083448,
+            "xmax": -13631774.223297602,
+            "ymax": 6351176.4759360645
           },
           "rotation": 0,
           "viewType": "2d"
@@ -3464,8 +3400,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_3",
-          "mainDataSourceId": "dataSource_3"
+          "dataSourceId": "dataSource_5",
+          "mainDataSourceId": "dataSource_5"
         }
       ],
       "dataActions": {
@@ -3631,80 +3567,13 @@
       "id": "widget_311",
       "useDataSources": []
     },
-    "widget_314": {
-      "uri": "widgets/layout/row/",
-      "version": "1.16.0",
-      "label": "Block 35",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              80,
-              10,
-              80,
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_314",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_193"
-        }
-      }
-    },
-    "widget_316": {
-      "uri": "widgets/layout/row/",
-      "version": "1.16.0",
-      "label": "Block 36",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              80,
-              10,
-              80,
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_316",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_194"
-        }
-      }
-    },
-    "widget_318": {
-      "uri": "widgets/common/text/",
-      "version": "1.16.0",
-      "label": "Text 25",
-      "config": {
-        "text": "<p>﻿Why Metro Vancouver Living Calculator? </p>"
-      },
-      "id": "widget_318"
-    },
-    "widget_319": {
-      "uri": "widgets/common/text/",
-      "version": "1.16.0",
-      "label": "Text 26",
-      "config": {
-        "text": "<p>﻿MISSION STATEMENT</p>"
-      },
-      "id": "widget_319"
-    },
     "widget_320": {
       "uri": "widgets/common/text/",
       "version": "1.16.0",
       "label": "Text 27",
       "config": {
-        "text": "<p>﻿Data:</p>"
+        "text": "<h2>Data Sources:</h2><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Primary Rental Median Price 2024(Canada Mortgage and Housing Corporation): <a href=\"https://www03.cmhc-schl.gc.ca/hmip-pimh/en/TableMapChart/Table?TableId=1.10.1&amp;GeographyId=2410&amp;GeographyTypeId=3&amp;DisplayAs=Table&amp;GeograghyName=Vancouver\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://www03.cmhc-schl.gc.ca/hmip-pimh/en/TableMapChart/Table?TableId=1.10.1&amp;GeographyId=2410&amp;GeographyTypeId=3&amp;DisplayAs=Table&amp;GeograghyName=Vancouver</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Child Care Map Data (OpenBC): <a href=\"https://catalogue.data.gov.bc.ca/dataset/child-care-map-data\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://catalogue.data.gov.bc.ca/dataset/child-care-map-data</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Metro Vancouver Shapefile (District of North Vancouver Open Data Portal): <a href=\"https://geoweb.dnv.org/data/\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://geoweb.dnv.org/data/</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Census Profile (Open Data Vancouver): <a href=\"https://opendata.vancouver.ca/explore/dataset/census-local-area-profiles-2016/information/\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://opendata.vancouver.ca/explore/dataset/census-local-area-profiles-2016/information/</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>BC Utility Bills (Primary Data compiled by MovingWaldo from Utility companies): <a href=\"https://www.movingwaldo.com/where-to-live/bc-utility-bills-how-much-does-utilities-cost/\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://www.movingwaldo.com/where-to-live/bc-utility-bills-how-much-does-utilities-cost/</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Consumer Price Index (BC Data Catalogue): <a href=\"https://catalogue.data.gov.bc.ca/dataset/2c75c627-3eb6-41ee-bb54-7b089eade484\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://catalogue.data.gov.bc.ca/dataset/2c75c627-3eb6-41ee-bb54-7b089eade484</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Vehicle Cost (BCAA): <a href=\"https://carcosts.caa.ca/results/british-columbia/suv_mainstream/ice?monthly_insurance_cost=0&amp;monthly_car_payment=0\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://carcosts.caa.ca/results/british-columbia/suv_mainstream/ice?monthly_insurance_cost=0&amp;monthly_car_payment=0</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Transit Cost (Translink): <a href=\"https://www.translink.ca/transit-fares/pricing-and-fare-zones\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://www.translink.ca/transit-fares/pricing-and-fare-zones</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Socioeconomic Data (Stats Canada): <a href=\"https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2022004-eng.htm\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2022004-eng.htm</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>BC Tax Brackets (TurboTax): <a href=\"https://turbotax.intuit.ca/tax-resources/british-columbia-income-tax-calculator?srsltid=AfmBOopuGUtPADDlKm6oCvghMEEH5ig3TXOZDHiMMTRET9uKoqAIdUuh\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://turbotax.intuit.ca/tax-resources/british-columbia-income-tax-calculator?srsltid=AfmBOopuGUtPADDlKm6oCvghMEEH5ig3TXOZDHiMMTRET9uKoqAIdUuh</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Groceries (Crowdsourced data from Numbeo): <a href=\"https://www.numbeo.com/food-prices/in/Vancouver\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://www.numbeo.com/food-prices/in/Vancouver</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Video: <a href=\"http://www.pexels.com\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">http://www.pexels.com</a></li></ol>",
+        "placeholder": "Double click to edit text"
       },
       "id": "widget_320"
     },
@@ -3713,7 +3582,8 @@
       "version": "1.16.0",
       "label": "Text 28",
       "config": {
-        "text": "<p>﻿Additional Housing Resources:</p>"
+        "text": "<h2>Additional Housing Resources:</h2><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Housing | Metro Vancouver: <a href=\"https://metrovancouver.org/services/housing\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://metrovancouver.org/services/housing</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Housing | City of Burnaby: <a href=\"https://www.burnaby.ca/our-city/programs-and-policies/housing\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://www.burnaby.ca/our-city/programs-and-policies/housing</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Tri-Cities Homelessness &amp; Housing Task Group « Coquitlam – Port Coquitlam – Port Moody: <a href=\"https://tricitieshomelessness.ca/\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://tricitieshomelessness.ca/</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Housing | City of Vancouver: <a href=\"https://vancouver.ca/people-programs/housing-and-homelessness.aspx\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://vancouver.ca/people-programs/housing-and-homelessness.aspx</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Finding Affordable Housing - City of Richmond, BC: <a href=\"https://www.richmond.ca/culture/social/affordable-housing/FindingAffordableHousing.htm\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://www.richmond.ca/culture/social/affordable-housing/FindingAffordableHousing.htm</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Housing Our Future | City of Delta: <a href=\"https://www.delta.ca/building-development/housing-our-future\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://www.delta.ca/building-development/housing-our-future</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Housing &amp; Homelessness | City of Surrey: <a href=\"https://www.surrey.ca/about-surrey/housing-homelessness\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://www.surrey.ca/about-surrey/housing-homelessness</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Housing - Township of Langley: <a href=\"https://www.tol.ca/en/the-township/housing.aspx\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://www.tol.ca/en/the-township/housing.aspx</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>YWCA Housing | YWCA Metro Vancouver: <a href=\"https://ywcavan.org/programs/housing\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://ywcavan.org/programs/housing</a></li></ol>",
+        "placeholder": "Double click to edit text"
       },
       "id": "widget_321"
     },
@@ -3722,25 +3592,27 @@
       "version": "1.16.0",
       "label": "Text 29",
       "config": {
-        "text": "<p>Additional Financial Resources:</p>"
+        "text": "<h2>Additional Financial Resources:</h2><p><br></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Budgets and Financial Plans | Metro Vancouver: <a href=\"https://metrovancouver.org/about-us/budgets-and-financial-plans\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://metrovancouver.org/about-us/budgets-and-financial-plans</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Support for Single Moms | YWCA Metro Vancouver: <a href=\"https://ywcavan.org/programs/support-single-moms\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://ywcavan.org/programs/support-single-moms</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Vancouver Affordability Guide: <a href=\"https://vancouvereconomic.com/affordability-guide/\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://vancouvereconomic.com/affordability-guide/</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Free and low cost food programs — City of Vancouver Open Data Portal: <a href=\"https://opendata.vancouver.ca/explore/dataset/free-and-low-cost-food-programs/table/?sort=program_name\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://opendata.vancouver.ca/explore/dataset/free-and-low-cost-food-programs/table/?sort=program_name</a></li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>$10 a Day ChildCareBC Centres by School Regions - Province of British Columbia: <a href=\"https://www2.gov.bc.ca/gov/content/family-social-supports/caring-for-young-children/childcarebc-programs/10-a-day-childcarebc-centres/10-a-day-centres-list\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\">https://www2.gov.bc.ca/gov/content/family-social-supports/caring-for-young-children/childcarebc-programs/10-a-day-childcarebc-centres/10-a-day-centres-list</a></li></ol>",
+        "tooltip": {
+          "name": "",
+          "parts": [
+            {
+              "type": "STRING",
+              "exp": "\"\""
+            }
+          ]
+        },
+        "placeholder": "Double click to edit text"
       },
       "id": "widget_322"
-    },
-    "widget_323": {
-      "uri": "widgets/common/text/",
-      "version": "1.16.0",
-      "label": "Text 30",
-      "config": {
-        "text": "<p>﻿How can this impact Vancouver?</p>"
-      },
-      "id": "widget_323"
     },
     "widget_325": {
       "uri": "widgets/common/text/",
       "version": "1.16.0",
       "label": "Text 31",
       "config": {
-        "text": "<p>﻿What </p>"
+        "text": "<h2>Redefining the Living Wage:</h2><p><br></p><p>The living wage metric of the app was inspired by MIT’s Living Wage Calculator.</p><p><br></p><p>The metric is based on a 40 hour work week for the whole year (52 weeks).</p><p><br></p><p>Our living wage calculations contain the following factors:</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Median monthly <strong>rent</strong> cost, dependent on household type and city.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Average monthly cost of <strong>transportation</strong> in Metro Vancouver, dependent on method of transportation (public, personal vehicle).</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Average cost of <strong>child care </strong>in Metro Vancouver (if the household has children).</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Average monthly cost of <strong>utilities</strong> in BC, taken as an average of all utilities.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Average monthly cost of <strong>groceries</strong> per adult in Metro Vancouver (assuming a 2100 daily caloric intake).</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Average monthly cost of <strong>household items</strong> and personal hygiene in Metro Vancouver.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Average monthly cost of <strong>internet and phone </strong>plans in BC Flat monthly cost of $100.</li></ol>",
+        "placeholder": "Double click to edit text"
       },
       "id": "widget_325"
     },
@@ -3763,6 +3635,12 @@
       "layouts": {
         "DEFAULT": {
           "LARGE": "layout_196"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--light-100)",
+          "fillType": "fill"
         }
       }
     },
@@ -3830,97 +3708,15 @@
       },
       "id": "widget_335"
     },
-    "widget_336": {
-      "uri": "widgets/common/card/",
-      "version": "1.16.0",
-      "label": "Card",
-      "config": {
-        "DEFAULT": {
-          "enable": true,
-          "backgroundStyle": {
-            "border": {
-              "border": {
-                "type": "solid",
-                "color": "#282828",
-                "width": "1px"
-              }
-            },
-            "borderRadius": {
-              "number": [
-                15,
-                15,
-                15,
-                15
-              ],
-              "unit": "px"
-            },
-            "background": {
-              "color": "#282828",
-              "fillType": "fill",
-              "image": {
-                "url": ""
-              }
-            }
-          }
-        },
-        "HOVER": {
-          "enable": false,
-          "backgroundStyle": {
-            "border": {
-              "type": "solid",
-              "color": "var(--light-400)",
-              "width": "1px"
-            },
-            "boxShadow": {
-              "offsetX": "0",
-              "offsetY": "0",
-              "blur": "0",
-              "spread": "0",
-              "color": "var(--dark-100)"
-            }
-          }
-        },
-        "itemStyle": "STYLE10",
-        "direction": "Horizontal",
-        "isItemStyleConfirm": true,
-        "isInitialed": true,
-        "isOpenAdvabceSetting": false,
-        "transitionInfo": {
-          "transition": {
-            "type": "None",
-            "direction": "H"
-          },
-          "oneByOneEffect": null
-        },
-        "linkParam": {
-          "linkType": "NONE",
-          "openType": "_self"
-        }
-      },
-      "id": "widget_336",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_202"
-        }
-      }
-    },
     "widget_350": {
       "uri": "widgets/common/text/",
       "version": "1.16.0",
       "label": "Text 32",
       "config": {
-        "text": "<h2 style=\"text-align: center;\">The future is <span style=\"color: var(--primary);\">AFFORDABLE</span> and <span style=\"color: var(--primary);\">SUSTAINABLE</span> with careful consideration</h2><h2><br></h2>"
+        "text": "<h2 style=\"line-height: 1; text-align: center;\"><span style=\"text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px;\">The future is </span><span style=\"text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px; color: var(--primary);\">AFFORDABLE</span><span style=\"text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px;\"> and </span><span style=\"text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px; color: var(--primary);\">SUSTAINABLE</span><span style=\"text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px;\"> with careful consideration!</span></h2>",
+        "placeholder": "Double click to edit text"
       },
       "id": "widget_350"
-    },
-    "widget_351": {
-      "uri": "widgets/common/text/",
-      "version": "1.16.0",
-      "label": "Text 33",
-      "config": {
-        "text": "<p><span style=\"font-size: 14px;\">Sed suscipit turpis nisl, vitae viverra dui vehicula vel. Praesent orci turpis, aliquam sed placerat et, malesuada ac lorem. Aliquam erat volutpat. Fusce molestie placerat elit, bibendum egestas mauris pharetra et. Donec eu euismod est. Sed eget lacus quis odio viverra posuere sit amet in tellus. Nullam iaculis, ante a dapibus rutrum, lacus ligula pretium leo, vel volutpat neque metus in leo. Nullam aliquam, tortor quis tincidunt pretium, est ipsum egestas turpis, sed laoreet sapien velit nec neque.</span></p>"
-      },
-      "id": "widget_351"
     },
     "widget_363": {
       "uri": "widgets/selector/",
@@ -3961,71 +3757,496 @@
         "placeholder": "Double click to edit text"
       },
       "id": "widget_365"
+    },
+    "widget_366": {
+      "uri": "widgets/common/card/",
+      "version": "1.16.0",
+      "label": "Card",
+      "config": {
+        "DEFAULT": {
+          "enable": true,
+          "backgroundStyle": {
+            "border": {
+              "type": "solid",
+              "color": "var(--light-400)",
+              "width": "1px"
+            }
+          }
+        },
+        "HOVER": {
+          "enable": false,
+          "backgroundStyle": {
+            "border": {
+              "type": "solid",
+              "color": "var(--light-400)",
+              "width": "1px"
+            },
+            "boxShadow": {
+              "offsetX": "0",
+              "offsetY": "0",
+              "blur": "0",
+              "spread": "0",
+              "color": "var(--dark-100)"
+            }
+          }
+        },
+        "itemStyle": "STYLE10",
+        "direction": "Horizontal",
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "isOpenAdvabceSetting": false,
+        "transitionInfo": {
+          "transition": {
+            "type": "None",
+            "direction": "H"
+          },
+          "oneByOneEffect": null
+        }
+      },
+      "id": "widget_366",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_206"
+        }
+      }
+    },
+    "widget_380": {
+      "uri": "widgets/common/text/",
+      "version": "1.16.0",
+      "label": "Text 35",
+      "config": {
+        "text": "<h2><span style=\"letter-spacing: 0px;\">What is MetroWage?</span></h2><p><br></p><p><strong style=\"color: rgb(255, 255, 255); font-family: &quot;Avenir Next&quot;; font-size: medium; letter-spacing: 0px;\">MetroWage</strong><span style=\"color: rgb(255, 255, 255); font-family: &quot;Avenir Next&quot;; font-size: medium; letter-spacing: 0px;\">, a </span><u style=\"color: rgb(255, 255, 255); font-family: &quot;Avenir Next&quot;; font-size: medium; letter-spacing: 0px;\">living wage calculator</u><strong style=\"color: rgb(255, 255, 255); font-family: &quot;Avenir Next&quot;; font-size: medium; letter-spacing: 0px;\"> </strong><span style=\"color: rgb(255, 255, 255); font-family: &quot;Avenir Next&quot;; font-size: medium; letter-spacing: 0px;\">for </span><u style=\"color: rgb(255, 255, 255); font-family: &quot;Avenir Next&quot;; font-size: medium; letter-spacing: 0px;\">Metro Vancouver</u><span style=\"color: rgb(255, 255, 255); font-family: &quot;Avenir Next&quot;; font-size: medium; letter-spacing: 0px;\">, aims to help people understand the cost of living across the metropolitan area by providing detailed, location-specific insights. </span></p><p><br></p><p><span style=\"color: rgb(255, 255, 255); font-family: &quot;Avenir Next&quot;; font-size: medium; letter-spacing: 0px;\">While the traditional \"living wage\" metric focuses on a two-adult, two-child household, our tool expands this by considering six distinct household types, different transportation options, and breaking down living costs for each municipality. </span></p><p><br></p><p><span style=\"color: rgb(255, 255, 255); font-family: &quot;Avenir Next&quot;; font-size: medium; letter-spacing: 0px;\">This geovisualization aims to give families and individuals a clearer view of affordability in different regions, supporting more informed decisions about where to live or rent.</span>﻿</p>",
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_380"
+    },
+    "widget_381": {
+      "uri": "widgets/layout/row/",
+      "version": "1.16.0",
+      "label": "Block 39",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_381",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_207"
+        }
+      }
+    },
+    "widget_382": {
+      "uri": "widgets/common/card/",
+      "version": "1.16.0",
+      "label": "Card 2",
+      "config": {
+        "DEFAULT": {
+          "enable": true,
+          "backgroundStyle": {
+            "border": {
+              "type": "solid",
+              "color": "var(--light-400)",
+              "width": "1px"
+            }
+          }
+        },
+        "HOVER": {
+          "enable": false,
+          "backgroundStyle": {
+            "border": {
+              "type": "solid",
+              "color": "var(--light-400)",
+              "width": "1px"
+            },
+            "boxShadow": {
+              "offsetX": "0",
+              "offsetY": "0",
+              "blur": "0",
+              "spread": "0",
+              "color": "var(--dark-100)"
+            }
+          }
+        },
+        "itemStyle": "STYLE10",
+        "direction": "Horizontal",
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "isOpenAdvabceSetting": false,
+        "transitionInfo": {
+          "transition": {
+            "type": "None",
+            "direction": "H"
+          },
+          "oneByOneEffect": null
+        }
+      },
+      "id": "widget_382",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_215"
+        }
+      }
+    },
+    "widget_394": {
+      "uri": "widgets/common/card/",
+      "version": "1.16.0",
+      "label": "Card 3",
+      "config": {
+        "DEFAULT": {
+          "enable": true,
+          "backgroundStyle": {
+            "border": {
+              "type": "solid",
+              "color": "var(--light-400)",
+              "width": "1px"
+            }
+          }
+        },
+        "HOVER": {
+          "enable": false,
+          "backgroundStyle": {
+            "border": {
+              "type": "solid",
+              "color": "var(--light-400)",
+              "width": "1px"
+            },
+            "boxShadow": {
+              "offsetX": "0",
+              "offsetY": "0",
+              "blur": "0",
+              "spread": "0",
+              "color": "var(--dark-100)"
+            }
+          }
+        },
+        "itemStyle": "STYLE10",
+        "direction": "Horizontal",
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "isOpenAdvabceSetting": false,
+        "transitionInfo": {
+          "transition": {
+            "type": "None",
+            "direction": "H"
+          },
+          "oneByOneEffect": null
+        }
+      },
+      "id": "widget_394",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_214"
+        }
+      }
+    },
+    "widget_406": {
+      "uri": "widgets/common/text/",
+      "version": "1.16.0",
+      "label": "Text 36",
+      "config": {
+        "text": "<h2>Why MetroWage?</h2><p><br></p><h6>Because the app is:</h6><p><br></p><p><strong>Family-focused</strong>: Highlights affordable and suitable living options for families in Metro Vancouver, using geographic data to visualize expenses.</p><p><br></p><p><strong>Interactive</strong>: Engages users with dynamic widgets to deepen their understanding of living wage data.</p><p><br></p><p><strong>Visually engaging</strong>: Transforms living wage information from static lists into geographic maps and customizable visualizations.</p><p><br></p><p><strong>Insightful</strong>: Guides families and individuals in identifying regions that best align with their living expenses and needs.</p><p><br></p><p><strong>Personalized</strong>: Features a \"calculator\" that adjusts to each user's financial situation, tailoring insights to their household setup.</p><p><br></p><p><strong>Sustainable</strong>: Incorporates transportation choices—public transit or personal vehicle—into living cost calculations, highlighting potential savings and promoting eco-friendly alternatives.</p>",
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_406"
+    },
+    "widget_408": {
+      "uri": "widgets/common/text/",
+      "version": "1.16.0",
+      "label": "Text 37",
+      "config": {
+        "text": "<h2>How to Navigate MetroWage:</h2><p><br></p><p>The top the page contains four navigation elements: <strong>Home</strong>, <strong>Calculator</strong>, <strong>Methodology</strong>, and <strong>Resources</strong>. </p><p>Each option corresponds to a page in our app, allowing you to easily navigate by clicking on the respective header.</p><p><br></p><p>Below are some summaries of what each page contains:</p><p><br></p><p><strong style=\"font-size: 13px;\">Home</strong>: The landing page you are currently at! This page contains the introduction and background information of the app, and provides everything you need to know to understand what this app is about.</p><p><br></p><p><strong>Calculator</strong>: The page where the main portion of the app resides. The page itself contains a map to see the living wages required for each city and household type, as well as the calculator itself, situated right below the map. You can enter your estimated income in the calculator to see a list of the most budget-friendly cities for your household.</p><p><br></p><p><strong>Methodology</strong>: This page explains the methods and justifications behind the calculation methods, and the data utilized in the app.</p><p><br></p><p><strong>Resources</strong>: This page contains the sources used in the creation of this app, as well as any supporting resources that you may find useful for understanding the housing markets and financial landscapes of Metro Vancouver.</p>",
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_408"
+    },
+    "widget_409": {
+      "uri": "widgets/common/card/",
+      "version": "1.16.0",
+      "label": "Card 4",
+      "config": {
+        "DEFAULT": {
+          "enable": true,
+          "backgroundStyle": {
+            "border": {
+              "type": "solid",
+              "color": "var(--light-400)",
+              "width": "1px"
+            }
+          }
+        },
+        "HOVER": {
+          "enable": false,
+          "backgroundStyle": {
+            "border": {
+              "type": "solid",
+              "color": "var(--light-400)",
+              "width": "1px"
+            },
+            "boxShadow": {
+              "offsetX": "0",
+              "offsetY": "0",
+              "blur": "0",
+              "spread": "0",
+              "color": "var(--dark-100)"
+            }
+          }
+        },
+        "itemStyle": "STYLE10",
+        "direction": "Horizontal",
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "isOpenAdvabceSetting": false,
+        "transitionInfo": {
+          "transition": {
+            "type": "None",
+            "direction": "H"
+          },
+          "oneByOneEffect": null
+        }
+      },
+      "id": "widget_409",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_223"
+        }
+      }
+    },
+    "widget_427": {
+      "uri": "widgets/common/text/",
+      "version": "1.16.0",
+      "label": "Text 38",
+      "config": {
+        "text": "<h2>﻿Calculating the Living Wage:</h2><p><br></p><p>We formalized the living wage calculations into an equation, to represent the monthly costs associated with each city, household type, and transportation method:</p><p><br></p><p><br></p><p><br></p>",
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_427",
+      "style": {
+        "background": {
+          "color": "var(--light-100)",
+          "fillType": "fill"
+        }
+      }
+    },
+    "widget_429": {
+      "uri": "widgets/common/card/",
+      "version": "1.16.0",
+      "label": "Card 5",
+      "config": {
+        "DEFAULT": {
+          "enable": true,
+          "backgroundStyle": {
+            "border": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "0px"
+              }
+            },
+            "background": {
+              "color": "var(--light)",
+              "fillType": "fill",
+              "image": {
+                "url": ""
+              }
+            },
+            "boxShadow": {
+              "offsetX": "0px",
+              "offsetY": "0px",
+              "blur": "0px",
+              "spread": "0px",
+              "color": "var(--light)"
+            }
+          }
+        },
+        "HOVER": {
+          "enable": false,
+          "backgroundStyle": {
+            "border": {
+              "type": "solid",
+              "color": "var(--light-400)",
+              "width": "1px"
+            },
+            "boxShadow": {
+              "offsetX": "0",
+              "offsetY": "0",
+              "blur": "0",
+              "spread": "0",
+              "color": "var(--dark-100)"
+            }
+          }
+        },
+        "itemStyle": "STYLE10",
+        "direction": "Horizontal",
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "isOpenAdvabceSetting": false,
+        "transitionInfo": {
+          "transition": {
+            "type": "None",
+            "direction": "H"
+          },
+          "oneByOneEffect": null
+        }
+      },
+      "id": "widget_429",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_227"
+        }
+      }
+    },
+    "widget_442": {
+      "uri": "widgets/common/image/",
+      "version": "1.16.0",
+      "label": "Image 14",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_441/1741986924168.png",
+            "originalUrl": "${appResourceUrl}/images/widget_441/1741986924168.png",
+            "fileName": "1741986924168.png",
+            "originalName": "Equation.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1741986924168",
+            "isUseCompress": false,
+            "originalWidth": 936,
+            "originalHeight": 66
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_442"
+    },
+    "widget_443": {
+      "uri": "widgets/common/text/",
+      "version": "1.16.0",
+      "label": "Text 39",
+      "config": {
+        "text": "<h2>Calculating Income Tax and Affordability:'</h2><p><br></p><p>The app contains an income tax calculator, that allows the user to input their yearly income or hourly wage (which would be scaled up to a yearly salary), to receive an estimate of their post-taxed yearly salary and/or hourly wage. The income taxation is modelled after the federal and provincial (BC) tax brackets shown on TurboTax’s 2024 tax calculator web page.</p><p><br></p><p>Using the determined net income representations from the income tax calculator, the “affordability” of each city is calculated by taking the difference between the user’s estimated hourly income and the living wage of each city. Any negative results from this operation are discarded, as they indicate the user cannot afford to live in the respective city. The remaining results are then ranked in descending order and displayed in the \"Affordable Cities Ranked\" section of the custom widget, showing the user their hourly savings for each city.</p>",
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_443",
+      "style": {
+        "background": {
+          "color": "var(--light-100)",
+          "fillType": "fill"
+        }
+      }
+    },
+    "widget_444": {
+      "uri": "widgets/common/text/",
+      "version": "1.16.0",
+      "label": "Text 40",
+      "config": {
+        "text": "<p>Where “L” is a living wage function of “h” (household type), “c” (city), and “t” (transportation mode) of the desired living wage parameters. “OtherCosts” represents the remaining costs associated with the living wage:﻿</p>",
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_444"
+    },
+    "widget_445": {
+      "uri": "widgets/common/image/",
+      "version": "1.16.0",
+      "label": "Image 15",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_445/1741987468858.png",
+            "originalUrl": "${appResourceUrl}/images/widget_445/1741987468858.png",
+            "fileName": "1741987468858.png",
+            "originalName": "othercosts.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1741987468858",
+            "isUseCompress": false,
+            "originalWidth": 506,
+            "originalHeight": 72
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_445"
+    },
+    "widget_446": {
+      "uri": "widgets/common/text/",
+      "version": "1.16.0",
+      "label": "Text 41",
+      "config": {
+        "text": "<p>…which can be represented as constants. We then utilized this equation to calculate the living wage associated with each combination of household type, city, and mode of transportation.</p>",
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_446",
+      "style": {
+        "background": {
+          "color": "var(--light-100)",
+          "fillType": "fill"
+        }
+      }
+    },
+    "widget_447": {
+      "uri": "widgets/common/text/",
+      "version": "1.16.0",
+      "label": "Text 42",
+      "config": {
+        "text": "<h2>Justifying our Data:</h2><p><br></p><p><strong>Median Rent:</strong></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Access to rental data consisted of different bedroom sizes for regions across Metro Vancouver.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Median values in the data contained the most consistent and complete values meaning regions with any missing data could be accurately imputed.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>While data was available for neighbourhoods and cities, only the city data was used for consistency across the region.</li></ol><p><br></p><p><strong>Transportation</strong>:</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Costs for transportation were divided into two different categories of Transit or Car.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Transit costs were derived from a Monthly-Fare pass that covered 1 zone.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Households with Children concurred the Child Monthly-Fare pass for associated Children.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>The one zone fare was selected due to the zone sizes of the Metropolitan area covering wide ranges.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Car costs were derived from the average cost of a 2024 Toyota Corolla Cross, taking into account gas, insurance, and repair costs.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>These features were selected to represent a cheaper car that can be associated with families or individuals.</li></ol><p><br></p><p><strong>Childcare Price and Accessibility:</strong></p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Childcare prices were gathered from a Westcoast Parent Services Survey for the Province of British Columbia and City of Vancouver.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>To calculate the cost used we took the average of the two medians of the categories of “Full Fee” and “Reduced Fee” to ensure a calculation that is more generalized for families using childcare.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>We looked into adding an accessibility component, which involved a 2km buffer of the 2,000+ childcare locations in Metro Vancouver, but found childcare accessibility was not an issue this calculation would focus on.</li></ol><p><br></p><p><strong>Utilities</strong>:</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Only regulated entities are permitted to sell and manage the distribution of utilities across the province.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>The average cost of water, gas, and electricity was used in the calculation.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>This gave a better representation of costs due to the varying price of electricity during times of high demand across the span of a day.</li></ol><p><br></p><p><strong>Groceries</strong>:</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Cost of groceries were taken from a crowdsourced website (NUMBEO citation) of general grocery items on a 2,100 calorie daily intake.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Households with Children associated grocery costs of 75% of the adult grocery cost (based on calculations of average consumption of Children under the age of 13).</li></ol><p><br></p><p><strong>Household Items</strong>:</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Household and hygiene items were derived from a crowdsourced dataset (NUMBEO) from the Metropolitan Vancouver, where the average cost was taken for these categories.</li></ol><p><br></p><p><strong>Internet and Phone</strong>:</p><ol><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Depending on the plan required by an individual the cost could vary.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>An average value was used for both internet and phone to reflect the price across BC.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>The Internet had the largest average fees derived from DSL, Cable, and Fibre Optic.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>$100 Flat Fee: The flat additional cost of $100 was to be associated with savings.</li><li data-list=\"bullet\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Numbers associated on the internet suggest the average Canadian saves close to $100 per month.</li></ol>",
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_447"
+    },
+    "widget_452": {
+      "uri": "widgets/layout/row/",
+      "version": "1.16.0",
+      "label": "Block 40",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_452",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_232"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--light-100)",
+          "fillType": "fill"
+        }
+      }
     }
   },
   "widgetsManifest": {},
   "views": {},
   "sections": {},
-  "dialogs": {
-    "dialog_5": {
-      "id": "dialog_5",
-      "mode": "FIXED",
-      "sizeMode": {
-        "LARGE": {
-          "position": "MIDDLE_CENTER",
-          "width": "30%",
-          "height": "30%",
-          "offsetX": 0,
-          "offsetY": -50,
-          "widthMode": "CUSTOM",
-          "heightMode": "CUSTOM"
-        }
-      },
-      "interactionType": "BUTTON_INLINE",
-      "interactionStyles": {
-        "text": "",
-        "textSize": "13px",
-        "buttonText": "",
-        "buttonTextSize": "16px"
-      },
-      "confirmBeforeClose": false,
-      "alwaysShowConfirmation": true,
-      "dialogBackground": {
-        "color": "var(--light)",
-        "fillType": "fill",
-        "image": {
-          "url": ""
-        }
-      },
-      "overlayColor": "var(--dark-900)",
-      "layout": {
-        "LARGE": "layout_166"
-      },
-      "index": 0,
-      "isSplash": false,
-      "closeWhenClickOverlay": true,
-      "effect": {
-        "type": "FADE_IN",
-        "option": {
-          "direction": null,
-          "configType": "DEFAULT"
-        }
-      },
-      "oneByOneEffect": {
-        "type": "NONE",
-        "option": {
-          "direction": null
-        }
-      },
-      "border": {
-        "color": "var(--light-300)",
-        "type": "solid",
-        "width": "2px"
-      },
-      "label": "Welcome Message",
-      "blockPage": true
-    }
-  },
+  "dialogs": {},
   "messageConfigs": {},
   "attributes": {
     "portalUrl": "https://simonfraseru.maps.arcgis.com",
@@ -4046,144 +4267,12 @@
     }
   },
   "dataSources": {
-    "dataSource_3": {
-      "id": "dataSource_3",
+    "dataSource_5": {
+      "id": "dataSource_5",
       "type": "WEB_MAP",
       "sourceLabel": "Vancouver Living Wage Map",
-      "itemId": "6dcfe2f52ce247b49318b2734f187735",
-      "portalUrl": "https://simonfraseru.maps.arcgis.com",
-      "childDataSourceJsons": {
-        "1958df00895-layer-332": {
-          "id": "dataSource_3-1958df00895-layer-332",
-          "type": "FEATURE_LAYER",
-          "sourceLabel": "Car - 2 Adults 1 Kid",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "70fa897ad4c547b38994c90092c9c0cb",
-          "layerId": "0",
-          "url": "https://services.arcgis.com/E5vyYQKPMX5X3R3H/arcgis/rest/services/Living_Wage_Car/FeatureServer/0",
-          "label": "Car - 2 Adults 1 Kid",
-          "isHidden": true
-        },
-        "1958df0111b-layer-333": {
-          "id": "dataSource_3-1958df0111b-layer-333",
-          "type": "FEATURE_LAYER",
-          "sourceLabel": "Car - 2 Adults 2 Kids",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "70fa897ad4c547b38994c90092c9c0cb",
-          "layerId": "0",
-          "url": "https://services.arcgis.com/E5vyYQKPMX5X3R3H/arcgis/rest/services/Living_Wage_Car/FeatureServer/0"
-        },
-        "1958defff53-layer-331": {
-          "id": "dataSource_3-1958defff53-layer-331",
-          "type": "FEATURE_LAYER",
-          "sourceLabel": "Car - 2 Adults 0 Kids",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "70fa897ad4c547b38994c90092c9c0cb",
-          "layerId": "0",
-          "url": "https://services.arcgis.com/E5vyYQKPMX5X3R3H/arcgis/rest/services/Living_Wage_Car/FeatureServer/0",
-          "label": "Car - 2 Adults 0 Kids",
-          "isHidden": true
-        },
-        "1958deff4ed-layer-330": {
-          "id": "dataSource_3-1958deff4ed-layer-330",
-          "type": "FEATURE_LAYER",
-          "sourceLabel": "Car - 1 Adult 2 Kids",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "70fa897ad4c547b38994c90092c9c0cb",
-          "layerId": "0",
-          "url": "https://services.arcgis.com/E5vyYQKPMX5X3R3H/arcgis/rest/services/Living_Wage_Car/FeatureServer/0",
-          "label": "Car - 1 Adult 2 Kids",
-          "isHidden": true
-        },
-        "1958defd8c4-layer-329": {
-          "id": "dataSource_3-1958defd8c4-layer-329",
-          "type": "FEATURE_LAYER",
-          "sourceLabel": "Car - 1 Adult 1 Kid",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "70fa897ad4c547b38994c90092c9c0cb",
-          "layerId": "0",
-          "url": "https://services.arcgis.com/E5vyYQKPMX5X3R3H/arcgis/rest/services/Living_Wage_Car/FeatureServer/0",
-          "label": "Car - 1 Adult 1 Kid",
-          "isHidden": true
-        },
-        "1958d5e33eb-layer-3": {
-          "id": "dataSource_3-1958d5e33eb-layer-3",
-          "type": "FEATURE_LAYER",
-          "sourceLabel": "Car - 1 Adult 0 Kids",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "70fa897ad4c547b38994c90092c9c0cb",
-          "layerId": "0",
-          "url": "https://services.arcgis.com/E5vyYQKPMX5X3R3H/arcgis/rest/services/Living_Wage_Car/FeatureServer/0",
-          "label": "Car - 1 Adult 0 Kids",
-          "isHidden": true
-        },
-        "1958da874c8-layer-214": {
-          "id": "dataSource_3-1958da874c8-layer-214",
-          "type": "FEATURE_LAYER",
-          "sourceLabel": "Transit - 2 Adults 2 Kids",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "30a45fafb56542fcaa09455307c58290",
-          "layerId": "0",
-          "url": "https://services.arcgis.com/E5vyYQKPMX5X3R3H/arcgis/rest/services/Living_Wage_Transit/FeatureServer/0",
-          "label": "Transit - 2 Adults 2 Kids",
-          "isHidden": true
-        },
-        "1958da84d42-layer-213": {
-          "id": "dataSource_3-1958da84d42-layer-213",
-          "type": "FEATURE_LAYER",
-          "sourceLabel": "Transit - 2 Adults 1 Kid",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "30a45fafb56542fcaa09455307c58290",
-          "layerId": "0",
-          "url": "https://services.arcgis.com/E5vyYQKPMX5X3R3H/arcgis/rest/services/Living_Wage_Transit/FeatureServer/0",
-          "label": "Transit - 2 Adults 1 Kid",
-          "isHidden": true
-        },
-        "1958da83f8d-layer-212": {
-          "id": "dataSource_3-1958da83f8d-layer-212",
-          "type": "FEATURE_LAYER",
-          "sourceLabel": "Transit - 2 Adults 0 Kids",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "30a45fafb56542fcaa09455307c58290",
-          "layerId": "0",
-          "url": "https://services.arcgis.com/E5vyYQKPMX5X3R3H/arcgis/rest/services/Living_Wage_Transit/FeatureServer/0",
-          "label": "Transit - 2 Adults 0 Kids",
-          "isHidden": true
-        },
-        "1958da83694-layer-211": {
-          "id": "dataSource_3-1958da83694-layer-211",
-          "type": "FEATURE_LAYER",
-          "sourceLabel": "Transit - 1 Adult 2 Kids",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "30a45fafb56542fcaa09455307c58290",
-          "layerId": "0",
-          "url": "https://services.arcgis.com/E5vyYQKPMX5X3R3H/arcgis/rest/services/Living_Wage_Transit/FeatureServer/0",
-          "label": "Transit - 1 Adult 2 Kids",
-          "isHidden": true
-        },
-        "1958da828d6-layer-210": {
-          "id": "dataSource_3-1958da828d6-layer-210",
-          "type": "FEATURE_LAYER",
-          "sourceLabel": "Transit - 1 Adult 1 Kid",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "30a45fafb56542fcaa09455307c58290",
-          "layerId": "0",
-          "url": "https://services.arcgis.com/E5vyYQKPMX5X3R3H/arcgis/rest/services/Living_Wage_Transit/FeatureServer/0",
-          "label": "Transit - 1 Adult 1 Kid",
-          "isHidden": true
-        },
-        "1958d5e30e2-layer-2": {
-          "id": "dataSource_3-1958d5e30e2-layer-2",
-          "type": "FEATURE_LAYER",
-          "sourceLabel": "Transit - 1 Adult 0 Kids",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "30a45fafb56542fcaa09455307c58290",
-          "layerId": "0",
-          "url": "https://services.arcgis.com/E5vyYQKPMX5X3R3H/arcgis/rest/services/Living_Wage_Transit/FeatureServer/0",
-          "label": "Transit - 1 Adult 0 Kids",
-          "isHidden": true
-        }
-      }
+      "itemId": "8afa22e7e4e3481e843627aa1499ea87",
+      "portalUrl": "https://simonfraseru.maps.arcgis.com"
     }
   },
   "originExbVersion": "1.16.0",
@@ -4199,9 +4288,6 @@
     },
     {
       "page_5": []
-    },
-    {
-      "page_25": []
     },
     {
       "page_0": []
@@ -4221,9 +4307,10 @@
     "height": {
       "LARGE": "75px"
     },
-    "backgroundColor": "#282828"
+    "backgroundColor": "#282828",
+    "sticky": true
   },
-  "timestamp": 1741943231776,
+  "timestamp": 1741990067251,
   "utilities": {},
   "publishTimestamp": 1741855238820
 }
