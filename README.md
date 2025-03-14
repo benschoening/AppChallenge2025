@@ -103,20 +103,20 @@ The app’s layout was designed for purposes of use on a desktop or laptop. Use 
 
 ## Data Sources
 
-| Data Name (Source) | Type | Link |
-| :---- | :---- | :---- |
-| Primary Rental Median Price 2024(Canada Mortgage and Housing Corporation) | Polygon | [Full view](https://www03.cmhc-schl.gc.ca/hmip-pimh/en/TableMapChart/Table?TableId=1.10.1&GeographyId=2410&GeographyTypeId=3&DisplayAs=Table&GeograghyName=Vancouver) |
-| Child Care Map Data (OpenBC) | Point | [Child Care Map Data \- Datasets \- Data Catalogue](https://catalogue.data.gov.bc.ca/dataset/child-care-map-data) |
-| Metro Vancouver Shapefile (District of North Vancouver Open Data Portal) | Polygon | [District of North Vancouver Open Data Portal](https://geoweb.dnv.org/data/) |
-| Census Profile (Open Data Vancouver) | csv | [Census local area profiles 2016 — City of Vancouver Open Data Portal](https://opendata.vancouver.ca/explore/dataset/census-local-area-profiles-2016/information/) |
-| BC Utility Bills (Primary Data compiled by MovingWaldo from Utility companies) | Text  | [BC Utility Bills : How Much Does It Cost for Electricity, Water, Gas, Internet, Cable & Home Phones in 2025?](https://www.movingwaldo.com/where-to-live/bc-utility-bills-how-much-does-utilities-cost/) |
-| Consumer Price Index (BC Data Catalogue) | csv | [BC Stats Release Consumer Price Index (CPI) Data Tables and Highlights (2002=100) \- Datasets \- Data Catalogue](https://catalogue.data.gov.bc.ca/dataset/2c75c627-3eb6-41ee-bb54-7b089eade484) |
-| Vehicle Cost (BCAA) | Text | [SUV | British Columbia | CAA Driving Costs Calculator](https://carcosts.caa.ca/results/british-columbia/suv_mainstream/ice?monthly_insurance_cost=0&monthly_car_payment=0) |
-| Transit Cost (Translink) | Text | [Pricing and Fare Zones | TransLink](https://www.translink.ca/transit-fares/pricing-and-fare-zones) |
-| Socioeconomic Data (Stats Canada) | csv | [Municipal Financial and Socioeconomic Data Dashboard](https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2022004-eng.htm) |
-| BC Tax Brackets (TurboTax) | Text | [BC Income Tax Calculator 2024-25 | TurboTax® Canada](https://turbotax.intuit.ca/tax-resources/british-columbia-income-tax-calculator?srsltid=AfmBOopuGUtPADDlKm6oCvghMEEH5ig3TXOZDHiMMTRET9uKoqAIdUuh) |
-| Groceries (Crowdsourced data from Numbeo) | Text | [https://www.numbeo.com/food-prices/in/Vancouver](https://www.numbeo.com/food-prices/in/Vancouver)  |
-| Video | .mp4 | [www.pexels.com](http://www.pexels.com)  |
+| Data Name (Source)                                                             | Type    | Link                                                                                                                                                                                                     |
+| :----------------------------------------------------------------------------- | :------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Primary Rental Median Price 2024(Canada Mortgage and Housing Corporation)      | Polygon | [Full view](https://www03.cmhc-schl.gc.ca/hmip-pimh/en/TableMapChart/Table?TableId=1.10.1&GeographyId=2410&GeographyTypeId=3&DisplayAs=Table&GeograghyName=Vancouver)                                    |
+| Child Care Map Data (OpenBC)                                                   | Point   | [Child Care Map Data \- Datasets \- Data Catalogue](https://catalogue.data.gov.bc.ca/dataset/child-care-map-data)                                                                                        |
+| Metro Vancouver Shapefile (District of North Vancouver Open Data Portal)       | Polygon | [District of North Vancouver Open Data Portal](https://geoweb.dnv.org/data/)                                                                                                                             |
+| Census Profile (Open Data Vancouver)                                           | csv     | [Census local area profiles 2016 — City of Vancouver Open Data Portal](https://opendata.vancouver.ca/explore/dataset/census-local-area-profiles-2016/information/)                                       |
+| BC Utility Bills (Primary Data compiled by MovingWaldo from Utility companies) | Text    | [BC Utility Bills : How Much Does It Cost for Electricity, Water, Gas, Internet, Cable & Home Phones in 2025?](https://www.movingwaldo.com/where-to-live/bc-utility-bills-how-much-does-utilities-cost/) |
+| Consumer Price Index (BC Data Catalogue)                                       | csv     | [BC Stats Release Consumer Price Index (CPI) Data Tables and Highlights (2002=100) \- Datasets \- Data Catalogue](https://catalogue.data.gov.bc.ca/dataset/2c75c627-3eb6-41ee-bb54-7b089eade484)         |
+| Vehicle Cost (BCAA)                                                            | Text    | [British Columbia - CAA Driving Costs Calculator](https://carcosts.caa.ca/results/british-columbia/suv_mainstream/ice?monthly_insurance_cost=0&monthly_car_payment=0)                                    |
+| Transit Cost (Translink)                                                       | Text    | [Pricing and Fare Zones - TransLink](https://www.translink.ca/transit-fares/pricing-and-fare-zones)                                                                                                      |
+| Socioeconomic Data (Stats Canada)                                              | csv     | [Municipal Financial and Socioeconomic Data Dashboard](https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2022004-eng.htm)                                                                             |
+| BC Tax Brackets (TurboTax)                                                     | Text    | [BC Income Tax Calculator 2024-25 - TurboTax® Canada](https://turbotax.intuit.ca/tax-resources/british-columbia-income-tax-calculator?srsltid=AfmBOopuGUtPADDlKm6oCvghMEEH5ig3TXOZDHiMMTRET9uKoqAIdUuh)  |
+| Groceries (Crowdsourced data from Numbeo)                                      | Text    | [https://www.numbeo.com/food-prices/in/Vancouver](https://www.numbeo.com/food-prices/in/Vancouver)                                                                                                       |
+| Video                                                                          | .mp4    | [www.pexels.com](http://www.pexels.com)                                                                                                                                                                  |
 
 ## Literature Sources
 
