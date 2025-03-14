@@ -1,0 +1,15 @@
+__mocks__
+node_modules
+webpack
+builder
+dist
+dist-prod
+dist-report
+jimu-arcgis
+jimu-core
+jimu-for-builder
+jimu-for-test
+jimu-icons
+jimu-layouts
+jimu-theme
+jimu-ui
